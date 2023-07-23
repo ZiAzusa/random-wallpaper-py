@@ -157,5 +157,5 @@ if __name__ == "__main__":
         MenuItem(text="退出", action=on_exit),
     )
     image = Image.open("./data/icon.ico")
-    icon = Icon("name", image, "Nahida.Fun随机壁纸", menu)
+    icon = Icon("name", image, "Nahida.Xin随机壁纸", menu)
     icon.run()
