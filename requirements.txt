@@ -1,0 +1,6 @@
+pillow>=7.2.0
+psutil>=5.7.2
+pystray>=0.19.4
+pywin32>=228
+requests>=2.24.0
+win32gui>=221.6
