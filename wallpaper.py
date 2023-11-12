@@ -31,7 +31,7 @@ def main():
 def change_img(icon=False):
     if icon:
         icon.notify("壁纸手动更换成功~", "提示")
-    api = "https://imgapi.nahida.xin/random?type=text&sort=" + sort
+    api = "https://imgapi.lie.moe/random?type=text&sort=" + sort
     path = "./data/pic/"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE",
@@ -157,5 +157,5 @@ if __name__ == "__main__":
         MenuItem(text="退出", action=on_exit),
     )
     image = Image.open("./data/icon.ico")
-    icon = Icon("name", image, "Nahida.Xin随机壁纸", menu)
+    icon = Icon("name", image, "萌える嘘随机壁纸", menu)
     icon.run()
